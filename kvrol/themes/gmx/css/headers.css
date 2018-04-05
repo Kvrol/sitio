@@ -1,0 +1,68 @@
+
+
+.main-header{
+  background: url(../images/bgmobile.jpg);
+  color: #fff;
+  padding: 30px 0 10px 0;
+  background-size: cover;
+  position: relative;
+}
+
+.mmain-header:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(17, 17, 16, 0.4);
+}
+.main-header .region{
+  position: relative;
+  z-index: 2;
+}
+
+/* START: ESTILO KVROL */
+
+.estilokvrol {
+  background: url(../images/kvrolmobile.jpg);
+  color: #fff;
+  padding: 10px 0 80px 0;
+
+}
+
+img {
+  max-width: 100%; 
+  height: 100%;
+}
+
+/* END: ESTILO KVROL */
+
+/* For width 400px and larger: */
+
+
+
+@media only screen and (min-width: 450px) {
+  .main-header {
+    background: url(../images/bg.jpg);
+    color: #fff;
+    padding: 30px 0 60px 0;
+    background-size: cover;
+    position: relative;
+  }
+
+}
+
+@media only screen and (min-width: 450px) {
+  .estilokvrol {
+    background: url(../images/kvrol.jpg);
+    color: #fff;
+    padding: 30px 0 60px 0;
+    background-size: cover;
+    position: relative;
+  }
+
+}
+
+
+

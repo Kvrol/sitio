@@ -1,0 +1,101 @@
+<div id="page-wrapper">
+  <div id="page">
+
+
+
+<!-- Header and Navbar -->
+<header class="main-header">
+  <!--Start: Branding and Menu -->
+  <div class="container">
+    <div class="row">
+        {% if page.header %}
+        <div class="col-xs-6 col-md-3">
+          {{ page.header }}
+        </div>
+        {% endif %}
+        <!-- Navigation -->
+        {% if page.menu %}
+          <div class="col-xs-6 col-md-9">
+            {{ page.menu }} 
+          </div>
+        {% endif %}
+        <!--End Navigation -->
+    </div>
+  </div>
+
+
+  <!-- Start: Banner -->
+    {% if page.welcome_banner_text %}
+      <div class="container">
+        <div class="banner">
+          <div class="row">
+            <div class="col-md-12">
+              {{ page.welcome_banner_text }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  <!-- End: Banner -->
+
+
+      <div class="redes">
+        <a href="https://www.facebook.com/karolesteban"><img src="/themes/gmx/images/facebook.png"/></a>
+        <a href="https://www.youtube.com/user/kesteban"><img class="rs" src="/themes/gmx/images/youtube.png"/></a>
+        <a href="https://www.instagram.com/karol_esteban"><img class="rs" src="/themes/gmx/images/instagram.png"/></a>
+      </div>
+
+
+
+  <!--Start: Highlighted -->
+    {% if page.highlighted %}
+      <div class="highlighted">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              {{ page.highlighted }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  <!--End: Highlighted -->
+
+</header>
+<!--End Header & Navbar -->
+
+
+
+
+
+      <!--- Start content -->
+      {% if page.content %}
+        <div class="container-fluid">
+          <div class="row">
+              {{ page.content }}
+          </div>
+        </div>
+      {% endif %}
+      <!---End content -->
+
+
+
+
+
+<!--Start: Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          {{ page.footera }}
+        </div>
+        <div class="col-md-3">
+          {{ page.footerb }}
+        </div>
+      </div>
+    </div>
+  </div>
+<!--End: Footer -->
+
+  </div>
+</div>
