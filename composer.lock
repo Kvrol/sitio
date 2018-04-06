@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e2c40e061c867f1b6b2b12903f8ea16",
+    "content-hash": "38d887f3bfdcda4ce2cb99d004f2e775",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2110,6 +2110,69 @@
             }
         },
         {
+            "name": "drupal/fontyourface",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/fontyourface",
+                "reference": "8.x-3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fontyourface-8.x-3.2.zip",
+                "reference": "8.x-3.2",
+                "shasum": "f509b3dc3e9849ca1cced5607a29d8319709c9ec"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.2",
+                    "datestamp": "1517458980",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "BTMash",
+                    "homepage": "https://www.drupal.org/user/60422"
+                },
+                {
+                    "name": "BarisW",
+                    "homepage": "https://www.drupal.org/user/107229"
+                },
+                {
+                    "name": "Drave Robber",
+                    "homepage": "https://www.drupal.org/user/984338"
+                },
+                {
+                    "name": "sreynen",
+                    "homepage": "https://www.drupal.org/user/109890"
+                }
+            ],
+            "description": "Web font management tools.",
+            "homepage": "https://www.drupal.org/project/fontyourface",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/fontyourface",
+                "issues": "https://drupal.org/project/issues/fontyourface"
+            }
+        },
+        {
             "name": "drupal/google_analytics",
             "version": "2.2.0",
             "source": {
@@ -2494,6 +2557,54 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+            }
+        },
+        {
+            "name": "drupal/webform_layout_container",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/webform_layout_container",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webform_layout_container-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "5ffccf73ea873f230da2f54144a5c3a15be21e84"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/webform": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1498657743",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "dpape",
+                    "homepage": "https://www.drupal.org/user/2409608"
+                }
+            ],
+            "description": "Provides a layout container element to add to a webform.",
+            "homepage": "https://www.drupal.org/project/webform_layout_container",
+            "support": {
+                "source": "http://cgit.drupalcode.org/webform_layout_container"
             }
         },
         {

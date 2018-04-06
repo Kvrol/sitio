@@ -117,10 +117,11 @@ div.redes {
 /* OLD STYLES BEGIN */
 /*Header*/
 
-body{
-  font-family: 'OpenSans', sans-serif;
-  font-size: 13.5px;
-  line-height: 170%;
+
+
+body {
+  font-size: 14px;
+  line-height: 26px;
   color: #333;
   overflow-x: hidden;
 }
@@ -130,12 +131,10 @@ body{
 }
 
 
-
-
-
 .paragraph {
   margin: 60px 0;
 }
+
 
 /* Formulario de contacto del sitio. */
 

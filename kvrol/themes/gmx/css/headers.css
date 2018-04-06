@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.mmain-header:after{
+.main-header:after{
   content: "";
   position: absolute;
   top: 0;

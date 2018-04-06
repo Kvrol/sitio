@@ -22,6 +22,8 @@ global-components:
       css/font-awesome.css: {}
       css/headers.css: {}
       css/sm-core-css.css: {}
+      css/outmobile.css: {}
+      css/justmobile.css: {}
   js:
     js/custom.js: {}
   dependencies:
