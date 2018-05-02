@@ -297,7 +297,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = '1AW50wQ8e5EX729I2LF3Is0POB9tA359gYIhqNXAvHLIltHLA9Wm7opPaju8Nq74AJnd3aCmFw';
 
 /**
  * Deployment identifier.
@@ -746,6 +746,11 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * example.org, with all subdomains included.
  */
 
+$settings['trusted_host_patterns'] = array(
+  '^kvrol\.com$',
+  '^.+\.kvrol\.com$',
+);
+
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
@@ -795,3 +800,13 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
 }
 // </DDSETTINGS>
 $settings['install_profile'] = 'standard';
+$databases['default']['default'] = array (
+  'database' => 'gmxcl_kvrol',
+  'username' => 'gmxcl_kvrolu',
+  'password' => '52YVd2.HY!pU',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
